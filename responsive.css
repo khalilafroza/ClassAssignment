@@ -1,0 +1,29 @@
+@media all and (max-width: 1520px){
+    .fixed_with{
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
+}
+@media all and (max-width: 850px){
+    .HeaderSection_left {
+        width: 100%;
+        text-align: center;
+    }
+    .HeaderSection_right ul {
+        text-align: center;
+    }
+    .HeaderSection_right ul li {
+        border-right: none;
+    }
+    .HeaderSection_right ul li a { 
+        font-style: 20px;
+        padding: 3px 10px;    
+    }
+
+}

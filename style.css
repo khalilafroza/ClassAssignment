@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearFix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+/* Heades Section CSS */
+
+
+.fixed_with{
+    width: 1400px;
+    margin: auto;
+}
+.HeaderSection{
+    background-color: #f5deb3;
+}
+.HeaderSection_left{
+    float:left;
+    width: 30%;
+
+}
+.HeaderSection_left img{
+    width: 150px;
+    height: auto;
+}
+
+.HeaderSection_right{
+    float: right;
+    width: 70%;
+}
+.HeaderSection_right ul{
+    text-align: right;
+    
+}
+.HeaderSection_right ul li{
+   display: inline-block;
+   margin-left: -4px;
+   border-right: 1px solid white ;
+}
+.HeaderSection_right ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 60px;
+    color: white;
+    font-style: 25px;
+    padding: 8px 15px;
+    transition: 0.5s;
+ 
+}
+
+/* Banner Section */
+.banner{    
+    background: url(intro-bg.jpg) no-repeat center;
+    padding: 200px 0px;
+    background-size: cover;
+}
+.bannerCaption{}
+.bannerCaption h4{    
+    color: #3296d9;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.bannerCaption h3{   
+    color: #3296d9;
+    max-width: 600px;
+    margin: auto;
+    font-size: 45px;
+    margin-top: 30px;
+
+}
+/* about-section */
+
+/* About Section */
+
+.about{
+    margin: 100px;
+}
+.about h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+.about p{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+}
+
+
+
+
+
+
+/* About Us */
+.aboutpage{
+    margin: 60px auto;
+}
+.about-left{
+    width: 30%;
+    float: left;   
+}
+.about-right{
+    width: 60%;
+    float: right;
+  
+}
+.aboutItem{
+    margin-bottom: 30px;
+}
+.aboutItem img{
+    float: left;
+    margin-right: 15px;
+    width: 450px;
+    height: auto;
+}
+.containt1{
+    margin-top: 300px;
+
+}
+.about-right .content1 p{
+    font-size: 18px;
+    line-height: 36px;
+    margin-top: 10px;
+
+}
+.about-right .content1 h1{   
+    margin-top: 20px;
+
+}
+.about-right .content1 h2{   
+    margin-top: 10px;
+
+}
+
+/* Service */
+.service{
+    margin: 100px;
+}
+.service h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+.service p{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.serviceBox{
+    background-color: #fffaf0;
+    margin: 100px;
+    padding-bottom: 50px;
+    width: 1400px;
+    height: auto;
+    padding-top: 40px;
+}
+.serviceItem{
+    width: 28%;
+    float: left;
+    padding: 10px 10px;
+    border: 2px dashed gray;
+    border-radius: 50px 0px 50px 0px;
+    margin-left: 20px;
+    text-align: center;
+}
+.serviceItem span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    border: 2px solid #3498db;
+    border-radius: 20px 0px 20px 0px;
+    color: #3498db;
+    margin: auto;
+    font-size: 40px;
+    line-height: 60px;
+    padding: 10px;
+
+}
+.serviceItem p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.serviceItem h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px;
+    font-size: 25px;
+}
+
+
+
+/* Footer bottom*/
+.footer{
+    background-color: #263848;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
