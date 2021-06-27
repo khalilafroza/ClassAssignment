@@ -154,50 +154,33 @@ img{
 }
 
 /* Service */
+.service-section{
+    background-color: #f7f3f0;
+    padding: 50px;
+}
 .service{
-    margin: 100px;
-}
-.service h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    margin-bottom: 18px;
-}
-.service p{
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 700px;
-    margin: auto;
-    font-size: 18px;
-}
-
-.serviceBox{
-    background-color: #fffaf0;
-    margin: 100px;
-    padding-bottom: 50px;
-    width: 1400px;
-    height: auto;
-    padding-top: 40px;
+    margin-top: 30px;
 }
 .serviceItem{
-    width: 28%;
+    width: 31.3%;
     float: left;
-    padding: 10px 10px;
-    border: 2px dashed gray;
+    border: 1px dashed gray;
     border-radius: 50px 0px 50px 0px;
-    margin-left: 20px;
-    text-align: center;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 .serviceItem span{
     display: block;
     height: 60px;
     width: 60px;
-    border: 2px solid #3498db;
-    border-radius: 20px 0px 20px 0px;
-    color: #3498db;
+    background: #2881b7;
+    color: white;
     margin: auto;
     font-size: 40px;
     line-height: 60px;
-    padding: 10px;
-
+    border-radius: 20px 0px 20px 0px;
 }
 .serviceItem p{
     font-family: Arial, Helvetica, sans-serif;
@@ -205,8 +188,9 @@ img{
 .serviceItem h3{
     font-family: Arial, Helvetica, sans-serif;
     margin: 20px 0px;
-    font-size: 25px;
+    font-size: 35px;
 }
+
 
 
 
@@ -215,6 +199,28 @@ img{
     background-color: #263848;
     color: white;
     padding: 20px;
-    text-align: center;
+
     
+}
+.footerleft{
+    float: left;
+    width: 40%;
+}
+.footerleft p{
+   
+}
+.footerright{
+    float: right;
+    width: 60%;
+}
+.SocialIcon{
+    text-align: right;
+}
+.SocialIcon li{
+    list-style: none;
+    display: inline-block;
+}
+.SocialIcon li a{
+    color: white;
+    margin-left: 15px;
 }
